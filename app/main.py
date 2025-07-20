@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-from .routers import products, orders
+from .api import products, orders
 
 app = FastAPI(
     title="HROne E-commerce Backend Task",
