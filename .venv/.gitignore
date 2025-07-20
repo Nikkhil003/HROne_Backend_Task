@@ -1,0 +1,13 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda environment
+.venv/
+
+# Environment variables
+.env
+
+# Other
+.DS_Store

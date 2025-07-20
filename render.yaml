@@ -1,0 +1,11 @@
+services:
+  - type: web
+    name: hrone-backend-api
+    runtime: python
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app.main:app --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: MONGO_URI
+        value: mongodb+srv://hroneuser:HRone1869@hrone.pot49e9.mongodb.net/?retryWrites=true&w=majority&appName=HROne
+      - key: SECRET_KEY
+        value: ol8KYR0PNRAv1sQU
