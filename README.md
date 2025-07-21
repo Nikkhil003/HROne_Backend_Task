@@ -116,6 +116,7 @@ Visit http://localhost:8000/docs for interactive API testing.
 The application is live and can be accessed at the following URL:
 
 -   **Live API Docs**: **[https://hrone-backend-task-aeh8.onrender.com/docs](https://hrone-backend-task-aeh8.onrender.com/docs)**
+> **Note**: This application is deployed on Render's free tier. The first request may be delayed by up to 50 seconds as the service spins up. Subsequent requests will be fast.
 
 The application is configured for deployment on platforms like Render or Railway:
 
